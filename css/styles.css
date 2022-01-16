@@ -4,4 +4,135 @@ href color #757575
 logo color #2196F3 
 footer link color color: rgba(255, 255, 255, 0.6);
 back-ground bt color #2196F3
+основной фон #E5E5E5
+хедер бек гроунл #ffffff
 */
+/* Основные*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+:root {
+  --color-h: #212121;
+  --color-text: #757575;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #e5e5e5;
+  color: #757575;
+}
+a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+/*header*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header {
+  background-color: #ffffff;
+}
+.header span {
+  color: #000000;
+}
+.header-item {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-item:hover,
+.header-item:focus {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.header-link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.header-link:hover,
+.header-link:focus {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+/*hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+/*main*/
+.section-title {
+  color: var(--color-h);
+}
+.section-text {
+  color: var(--color-text);
+}
+.navigation.logoend {
+  color: #000000;
+}
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.map {
+  color: #ffffff;
+}
+.footer span {
+  color: #ffffff;
+}
